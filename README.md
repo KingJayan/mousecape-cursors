@@ -8,7 +8,9 @@ SwiftUI build [here](https://github.com/sdmj76/Mousecape-swiftUI).
 ### selection
 
 `capes/{style}/{style}-{palette}-{mode}-{version}.cape`
+
 `preview/{style}/{style}-{palette}-{mode}-{version}.cape`
+
 
 | style | |
 |---|---|
@@ -32,4 +34,5 @@ SwiftUI build [here](https://github.com/sdmj76/Mousecape-swiftUI).
 #
 
 feedback, reports in [issues](https://github.com/KingJayan/mousecape-cursors/issues/new).
+
 feel free to download, test, port, and redistribute (MIT).
