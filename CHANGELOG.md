@@ -6,8 +6,6 @@
 - shadow, gloss, gradient and outline weight are now per-style
 - previews organized into per-style folders
 
-108 capes, 20MB. clone with `--depth 1` if you only want the current set.
-
 ### v2
 
 - arrowheads no longer punch a notch
