@@ -1,37 +1,42 @@
 ## cursors
 
-a small library of generated mousecape cursor packs. 32 capes, 42 cursors each.
+a small library of my own mousecape cursor packs.
 
 requires [mousecape](https://github.com/alexzielenski/Mousecape), or the newer
 SwiftUI build [here](https://github.com/sdmj76/Mousecape-swiftUI).
 
 ### picking one
 
-`capes/{style}/{style}-{palette}-{mode}-v2.cape`
+`capes/{style}/{style}-{palette}-{mode}-{version}.cape`
 
-| field | values | |
-|---|---|---|
-| style | `vanilla` `soft` `thin` `chonk` | line weight, corner radius, size |
-| palette | `mono` `mocha` `latte` `nord` | accent colour on badges and spinner |
-| mode | `light` `dark` | brightness of the desktop you use, not the cursor |
+| style | |
+|---|---|
+| `vanilla` | the baseline |
+| `soft` | rounder, heavier outline |
+| `thin` | lighter weight, smaller |
+| `chonk` | vanilla at maximum weight |
+| `cartoony` | rubber-hose arrow, gloved hands with cuffs |
+| `bubble` | inflated, glossy, very round |
+| `macintosh` | 1-bit pixel art, no antialiasing, no shadow, wristwatch for wait |
+| `material` | no outline, pastel accent tint, soft elevation shadow |
+| `demo` | glossy aqua-era gradient and highlight |
 
-`light` draws a dark cursor with a pale outline; `dark` inverts it. Every
-variant has its own identifier, so they all coexist in one Mousecape library.
+| palette | |
+|---|---|
+| `mono` | no accent, body color only |
+| `mocha` `latte` `nord` | full-saturation accents |
+| `ink` | ink on paper, near-monochrome badges |
+| `sage` | muted green and clay |
 
-previews for every variant are in [previews/](previews/).
+`mode` is `light` or `dark` — the brightness of the desktop you use, not of the
+cursor. `light` gives a dark cursor with a light outline; `dark` inverts it.
 
-### v2
+preview imgs in [previews/{style}/](previews/), same layout as `capes/`.
 
-- arrowheads no longer punch a notch where the shaft meets them
-- magnifiers tint the lens, so zoom in/out differ at a glance
-- corner resize cursors read as arrows instead of an X
-- cell is a distinct thick plus; IBeamXOR gets a crossbar
-- crosshair gains a centre dot; menu badge matches its siblings
-- binary plists and quantised PNGs: 32 capes now weigh less than 12 did
-- new `chonk` style, new `latte` and `nord` palettes
+changes in [CHANGELOG.md](CHANGELOG.md). 108 capes, 20MB — clone with
+`--depth 1` if you only want the current set.
 
+built and structurally validated, but not verified in mousecape on macos.
+
+feedback, reports in [issues](https://github.com/KingJayan/mousecape-cursors/issues/new).
 feel free to download, test, port, and redistribute (MIT).
-feedback goes in [issues](https://github.com/KingJayan/mousecape-cursors/issues/new).
-
-not verified on macOS — built and structurally validated, but untested in
-Mousecape itself. reports welcome.
