@@ -9,7 +9,7 @@ SwiftUI build [here](https://github.com/sdmj76/Mousecape-swiftUI).
 
 `capes/{style}/{style}-{palette}-{mode}-{version}.cape`
 
-`preview/{style}/{style}-{palette}-{mode}-{version}.cape`
+`previews/{style}/{style}-{palette}-{mode}-{version}.png`
 
 
 | style | |
@@ -17,19 +17,19 @@ SwiftUI build [here](https://github.com/sdmj76/Mousecape-swiftUI).
 | `vanilla` | baseline |
 | `soft` | rounder, heavier outline |
 | `thin` | lighter weight, smaller |
-| `chonk` | vanilla at maximum weight |
-| `cartoony` | kind like mickey mouse |
-| `bubble` | inflated, glossy, very rotund |
-| `macintosh` | classic |
-| `material` | pastel accent tint, soft box shadow |
-| `demo` | glossy gradient and highlight |
+| `cartoony` | fat arrow, white gloves |
+| `bubble` | short, wide, very rotund |
+| `macintosh` | 1-bit, classic, wristwatch for wait |
 
 | palette | |
 |---|---|
 | `mono` | no accent, body color only |
 | `mocha` `latte` `nord` | full-saturation accents |
-| `ink` | ink on paper, near-monochrome badges |
+| `ink` | paper to ink, badges vary by value not hue |
 | `sage` | muted green and clay |
+
+`light` is a light cursor, `dark` is a dark one. pick the opposite of your
+desktop.
 
 #
 

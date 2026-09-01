@@ -1,3 +1,13 @@
+### v4
+
+- `light` and `dark` were inverted; `light` is now a light cursor
+- dropped `chonk` `material` `demo`
+- `bubble` is a genuinely wider, shorter arrow instead of a gradient
+- `ink` is a paper-to-ink value ramp, so badges are told apart by value
+- cartoony hands are gloves with a wrist cuff
+- corner resize dividers no longer read as swords
+- arrowheads scale with stroke weight
+
 ### v3
 
 - five new styles: `cartoony` `bubble` `macintosh` `material` `demo`
